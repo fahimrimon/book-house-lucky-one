@@ -12,6 +12,7 @@
   border: 1px solid gray;
   border-radius: 8px;
   position: relative;
+  box-shadow: 10px 10px 5px gray;
 }
 .product-info {
   margin: 8px;
