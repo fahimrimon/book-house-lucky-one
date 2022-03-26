@@ -33,7 +33,15 @@
   border-radius: 0px 0px 8px 8px;
   position: absolute;
   bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-text {
+  margin-top: 10px;
+  margin-right: 7px;
 }
 .btn-cart:hover {
   background-color: crimson;
+  color: cyan;
 }

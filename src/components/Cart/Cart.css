@@ -1,0 +1,10 @@
+.cart > h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.cart {
+  padding: 30px 20px;
+}
+.book-name {
+  color: rgb(255, 51, 0);
+}
