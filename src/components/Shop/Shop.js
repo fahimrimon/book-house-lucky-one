@@ -33,6 +33,7 @@ const Shop = () => {
                 <Cart cart={cart}></Cart>
             </div>
         </div>
+        
     );
 };
 

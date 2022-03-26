@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css';
 const Cart = (props) => {
     const {cart} = props;
-    console.log(cart);
+    // console.log(cart);
 
 
     const test = (min,max) =>{
@@ -11,9 +11,14 @@ const Cart = (props) => {
     const choose1ForMe = () =>{
         let index = test(0,cart.length-1);
         const tem = cart[index];
-        alert("Please Buy "+tem.name);
+        alert("Please Buy Your Lucky Book! "+tem.name);
         return tem;
     }
+
+    const chooseAgain = ()=>{
+        
+    }
+
 
     return (
         <div className='cart'>
@@ -24,8 +29,8 @@ const Cart = (props) => {
                     
                 ))
             }
-            <button onClick={choose1ForMe} className='cart-btn'>CHOOSE 1 FOR ME</button>
-            <button className='cart-btn'>CHOOSE AGAIN</button>
+            <button onClick={choose1ForMe} className='cart-btn'>CHOOSE YOUR LUCKY BOOK</button>
+            <button onClick={chooseAgain} className='cart-btn'>CHOOSE AGAIN</button>
         </div>
     );
 };
