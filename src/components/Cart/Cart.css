@@ -8,3 +8,9 @@
 .book-name {
   color: rgb(255, 51, 0);
 }
+.cart-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}

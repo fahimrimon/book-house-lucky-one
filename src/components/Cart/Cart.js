@@ -9,7 +9,8 @@ const Cart = (props) => {
             <h4>Selected Books</h4>
             {
                 cart.map((item) =>(
-                    <h6 key={item.id}>{item.name}</h6>
+                    <h6 key={item.id}><img className='cart-img' src={item.img} alt="" />{item.name}</h6>
+                    
                 ))
             }
         </div>
