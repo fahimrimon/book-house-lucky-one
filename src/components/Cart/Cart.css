@@ -14,3 +14,14 @@
   margin-right: 10px;
   border-radius: 50%;
 }
+.cart-btn {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(185, 89, 109);
+}
+.cart-btn:hover {
+  background-color: crimson;
+  color: cyan;
+}
